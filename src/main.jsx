@@ -1,6 +1,6 @@
 import React from 'react';
 // import ReactDOM from 'react-dom'; The new way to import createRoot:
-import { Provider } from 'react-redux'
+import { Provider, connect } from 'react-redux'
 import { legacy_createStore as createStore } from 'redux'
 import { createRoot } from "react-dom/client";
 import './index.css'; 
